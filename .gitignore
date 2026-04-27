@@ -1,0 +1,20 @@
+# Generated state from local runs — the canonical watchlist lives in
+# quant_watchlist/core.py:DEFAULT_WATCHLIST, not in this state file.
+watchlist_output/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

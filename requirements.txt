@@ -1,0 +1,10 @@
+# Same versions as the local installer (setup.bat / setup.command).
+# NumPy held below 2.0 to avoid _ARRAY_API_not_found errors from
+# transitive deps that still ship NumPy 1.x wheels.
+numpy<2
+pandas
+scipy
+statsmodels
+plotly
+yfinance
+requests
